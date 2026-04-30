@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22f2433c3bba3424ebb62f0873032a1a, type: 3}
+  m_Name: TileSpriteRegistry
+  m_EditorClassIdentifier: 
+  groundTiles:
+  - {fileID: 21300000, guid: 25660ebd9623433a902076f77945af78, type: 3}
+  - {fileID: 21300000, guid: 764c1e2b18514e6ebc48cd93db3ed161, type: 3}
+  - {fileID: 21300000, guid: 8a16378966c64740b939a5d8773f98f1, type: 3}
+  - {fileID: 21300000, guid: 25660ebd9623433a902076f77945af78, type: 3}
+  - {fileID: 21300000, guid: 764c1e2b18514e6ebc48cd93db3ed161, type: 3}
+  - {fileID: 21300000, guid: 8a16378966c64740b939a5d8773f98f1, type: 3}
+  - {fileID: 21300000, guid: 25660ebd9623433a902076f77945af78, type: 3}
+  - {fileID: 21300000, guid: 764c1e2b18514e6ebc48cd93db3ed161, type: 3}
+  - {fileID: 21300000, guid: 8a16378966c64740b939a5d8773f98f1, type: 3}
+  - {fileID: 21300000, guid: 25660ebd9623433a902076f77945af78, type: 3}
+  - {fileID: 21300000, guid: 764c1e2b18514e6ebc48cd93db3ed161, type: 3}
+  - {fileID: 21300000, guid: 8a16378966c64740b939a5d8773f98f1, type: 3}
+  groundBloodTile: {fileID: 21300000, guid: 3fe2838d853e4315a6653acfe6c514d2, type: 3}
+  groundBloodVariants:
+  - {fileID: 21300000, guid: 3fe2838d853e4315a6653acfe6c514d2, type: 3}
+  groundGrassTile: {fileID: 21300000, guid: 764c1e2b18514e6ebc48cd93db3ed161, type: 3}
+  groundGrassOrCursedVariants:
+  - {fileID: 21300000, guid: 764c1e2b18514e6ebc48cd93db3ed161, type: 3}
+  - {fileID: 21300000, guid: 8a16378966c64740b939a5d8773f98f1, type: 3}
+  groundDecorationChance: 0.1
+  groundDecorationTiles:
+  - {fileID: 21300000, guid: eb37b83b9ece4d4a9f94e044cbf4b5fa, type: 3}
+  - {fileID: 21300000, guid: dfb4e43fcbca4191afb3c5eab19527be, type: 3}
+  - {fileID: 21300000, guid: 93d33706ab1c462fa06fe19c4396bdd0, type: 3}
+  - {fileID: 21300000, guid: 603e621deb3e48b6880b89d55565049d, type: 3}
+  - {fileID: 21300000, guid: 00995ce28e6b4cd5af09bb36eb3d6191, type: 3}
+  obstacleTiles:
+  - {fileID: 21300000, guid: 6e93fb127a97422d8fa856c0fe9ff74e, type: 3}
+  - {fileID: 21300000, guid: 9e4fbde95c264e4fb1ae2b0f2aded5ea, type: 3}
+  - {fileID: 21300000, guid: 02364bf2682240309da4a3c5cbe6857b, type: 3}
+  - {fileID: 21300000, guid: eb1a249fd9d042039217ef9b50536b14, type: 3}
+  - {fileID: 21300000, guid: e9687e45aec948cc96115b60ea01ad42, type: 3}
+  edgeTiles:
+  - {fileID: 21300000, guid: aaced112717f4832b71ae92b8f6b5252, type: 3}
+  - {fileID: 21300000, guid: e4327e5bf63c40dcaa82921d84c30e5e, type: 3}
+  - {fileID: 21300000, guid: 19d0c7a08f8447edbfe97593425898f0, type: 3}
+  - {fileID: 21300000, guid: 7bf6df3c20be4785b4b54d533079389f, type: 3}
+  - {fileID: 21300000, guid: aaced112717f4832b71ae92b8f6b5252, type: 3}
+  - {fileID: 21300000, guid: e4327e5bf63c40dcaa82921d84c30e5e, type: 3}
+  - {fileID: 21300000, guid: 19d0c7a08f8447edbfe97593425898f0, type: 3}
+  - {fileID: 21300000, guid: 7bf6df3c20be4785b4b54d533079389f, type: 3}
+  - {fileID: 21300000, guid: aaced112717f4832b71ae92b8f6b5252, type: 3}
+  - {fileID: 21300000, guid: e4327e5bf63c40dcaa82921d84c30e5e, type: 3}
+  - {fileID: 21300000, guid: 19d0c7a08f8447edbfe97593425898f0, type: 3}
+  - {fileID: 21300000, guid: 7bf6df3c20be4785b4b54d533079389f, type: 3}
+  edgeSortingOrderBoost: 2
+  spawnTeam1Color: {r: 0.25, g: 0.45, b: 1, a: 0.4}
+  spawnTeam2Color: {r: 1, g: 0.3, b: 0.2, a: 0.4}
