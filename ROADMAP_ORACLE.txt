@@ -198,7 +198,7 @@ Prompt Cursor AI :
 - Gestion des états : Idle, Moving, Casting, Dead
 - Tri de rendu (sorting order) basé sur la position Y isométrique
 - Intégration avec GridManager pour occupation des cases"
-1.3.3 — Sprites personnage (Aseprite)
+✅1.3.3 — Sprites personnage (Aseprite)
 Taille recommandée : 32x48 ou 48x64 pixels par frame
 Animations à créer pour MVP :
 Priorité 1 (indispensable) :
@@ -227,7 +227,7 @@ Prompt Cursor AI :
 - Reset PA/PM à chaque début de tour
 - Gestion des effets de durée (poisons, boucliers...) 
   déclenchés en début/fin de tour"
-2.1.2 — Timer visuel
+✅2.1.2 — Timer visuel
 Prompt Cursor AI :
 "Crée un TimerUI Unity C# avec :
 - Barre de progression circulaire (ou linéaire) qui se vide
@@ -236,7 +236,7 @@ Prompt Cursor AI :
 - Son d'alerte (tick) dans les 5 dernières secondes
 - Affichage du nombre de secondes restantes (TextMeshPro)"
 Étape 2.2 — Système de sorts
-2.2.1 — Cast et résolution des sorts
+✅2.2.1 — Cast et résolution des sorts
 Prompt Cursor AI :
 "Crée un SpellSystem Unity C# avec :
 - SpellCaster : vérifie si le sort est castable (PA suffisants, 
@@ -248,7 +248,7 @@ Prompt Cursor AI :
   avant de résoudre les effets
 - Gestion des cooldowns par sort
 - Log de combat (texte qui remonte les dégâts/actions)"
-2.2.2 — Calcul des zones d'effet
+✅2.2.2 — Calcul des zones d'effet
 Types de zones à implémenter :
 - Cellule unique (single target)
 - Croix (cases adjacentes + centre)
@@ -281,7 +281,7 @@ pour spawner des effets visuels pixel art sur les cases cibles,
 avec gestion du sorting order isométrique et auto-destroy 
 à la fin de l'animation"
 Étape 2.3 — Système de passifs
-2.3.1 — Architecture des passifs
+✅2.3.1 — Architecture des passifs
 Prompt Cursor AI :
 "Crée un système de passifs Unity C# basé sur des events :
 - Interface IPassive avec méthode OnTrigger(TriggerContext)
@@ -292,7 +292,7 @@ Prompt Cursor AI :
   OnKill, OnSpellCast...)
 - Chaque passif est un ScriptableObject implémentant IPassive
 - Modifier les valeurs via le TriggerContext (ex: réduire les dégâts)"
-2.3.2 — Écran de sélection des passifs
+✅2.3.2 — Écran de sélection des passifs
 Flux UX :
 Début de game :
 1. Afficher 5 passifs tirés aléatoirement du pool
@@ -309,7 +309,7 @@ Prompt Cursor AI :
 - Timer avec progression visuelle
 - Animation de confirmation et transition vers le combat"
 Étape 2.4 — Système de deck
-2.4.1 — Interface du deck en combat
+✅2.4.1 — Interface du deck en combat
 Layout de l'UI en combat :
 Barre de sorts (en bas de l'écran) :
 [Sort1][Sort2][Sort3][Sort4][Sort5][Sort6][Sort7][Sort8]
