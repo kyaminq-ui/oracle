@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22f2433c3bba3424ebb62f0873032a1a, type: 3}
+  m_Name: TileSpriteRegistry
+  m_EditorClassIdentifier: 
+  groundTiles:
+  - {fileID: 21300000, guid: d319e1f1914b4c629371f8cff3a29f90, type: 3}
+  - {fileID: 21300000, guid: 4064edfe95be4a7090e6518c3ca8e6f0, type: 3}
+  - {fileID: 21300000, guid: 21332ce1dd1f44429ed2a4d2bec4dc54, type: 3}
+  - {fileID: 21300000, guid: 4ef980a8ac744356a6e4668991161d78, type: 3}
+  - {fileID: 21300000, guid: 4dd8247dc4754665ab1d2678c7d449a3, type: 3}
+  - {fileID: 21300000, guid: ac2498249e6045c994925ed374ee4389, type: 3}
+  - {fileID: 21300000, guid: 864181978108432abc67b4585a143cdb, type: 3}
+  - {fileID: 21300000, guid: ae239bf2f0844005b1884a32b535927e, type: 3}
+  - {fileID: 21300000, guid: ea04cad065ac4c4a998e3c929657ac7f, type: 3}
+  - {fileID: 21300000, guid: 3e3e71fda3a045a9b7b9f83ffef61138, type: 3}
+  - {fileID: 21300000, guid: 306a9ca8432a4d0dbc68211327fe5346, type: 3}
+  - {fileID: 21300000, guid: 95883d61b49f40a2a3ae3b75c4c17225, type: 3}
+  groundBloodTile: {fileID: 21300000, guid: b34ee6a9178f44b9803cbdad02c30c5f, type: 3}
+  groundBloodVariants:
+  - {fileID: 21300000, guid: b34ee6a9178f44b9803cbdad02c30c5f, type: 3}
+  - {fileID: 21300000, guid: b312f90f251b47d6a8159997f7f0a63e, type: 3}
+  - {fileID: 21300000, guid: 6f450990d08e49b98822f9be91111dd4, type: 3}
+  - {fileID: 21300000, guid: 9d973f104453485995724f0a499caaf8, type: 3}
+  - {fileID: 21300000, guid: c656e89f6e4a4ee1a1e0efa14b875117, type: 3}
+  - {fileID: 21300000, guid: b182a4ac8c384eaf99b158ca71709bf5, type: 3}
+  - {fileID: 21300000, guid: 85b2314dc9284630a554e7c0bdf4fa66, type: 3}
+  - {fileID: 21300000, guid: 5e482f9a23cb47d4b4a3ac624e0e7310, type: 3}
+  - {fileID: 21300000, guid: 44f2bff991fb44bc919c2bc53e4c4784, type: 3}
+  - {fileID: 21300000, guid: 8287e2b7535941c1b35ff92385b869ac, type: 3}
+  - {fileID: 21300000, guid: bdee486328c045809f49d1aebc576e77, type: 3}
+  - {fileID: 21300000, guid: 975ed794142a41fd853e888ed99472c4, type: 3}
+  groundGrassTile: {fileID: 21300000, guid: 21ffb95d55b44911932c5d34b7cef6a7, type: 3}
+  groundGrassOrCursedVariants:
+  - {fileID: 21300000, guid: 71ca720760494249b1ac66a85970b00d, type: 3}
+  - {fileID: 21300000, guid: 92bfbd21dea74e0f8537fa0fd1bc5b6f, type: 3}
+  - {fileID: 21300000, guid: 16aafffcda824e8dada244e63d16dfd7, type: 3}
+  - {fileID: 21300000, guid: 0d5a750d87164f46950e9a8792758caf, type: 3}
+  - {fileID: 21300000, guid: 95e6a04a83bb4881a288184cdafd6fe9, type: 3}
+  - {fileID: 21300000, guid: a0dd78cc38fd4c16853ce4629d9298ca, type: 3}
+  - {fileID: 21300000, guid: 21ffb95d55b44911932c5d34b7cef6a7, type: 3}
+  - {fileID: 21300000, guid: 9be19b475aca456499924a76e8321c3c, type: 3}
+  - {fileID: 21300000, guid: 2b067e46af8349059e61ea7acb99d13c, type: 3}
+  - {fileID: 21300000, guid: c3097ac841834272956130c58fe29c84, type: 3}
+  - {fileID: 21300000, guid: 49f1241bf8574571a01ddcd7b6bee33c, type: 3}
+  - {fileID: 21300000, guid: a5165e5a4d2541bb88326183d454a9bf, type: 3}
+  groundDecorationChance: 0.1
+  groundDecorationTiles:
+  - {fileID: 21300000, guid: 3354b51935d9489290cf1a89a6d7fe95, type: 3}
+  - {fileID: 21300000, guid: 9e6e08b0136e434ab6f79e6cd6dead00, type: 3}
+  - {fileID: 21300000, guid: 87f4a2a25ebf48dab58a06ce8ed48134, type: 3}
+  - {fileID: 21300000, guid: 885933fcf0c443549cb065da30bd4432, type: 3}
+  - {fileID: 21300000, guid: ddac50feb27f4cc9945831350e44961b, type: 3}
+  - {fileID: 21300000, guid: b2fcda0c5b834318bd14a74732cebfba, type: 3}
+  - {fileID: 21300000, guid: b47c6c018bc541ee9b3d7c683f8006dd, type: 3}
+  - {fileID: 21300000, guid: 9a4511a7a26a4b94b9ce496616c967b0, type: 3}
+  - {fileID: 21300000, guid: b92dc26524624d0bb93fd95db668d33e, type: 3}
+  - {fileID: 21300000, guid: d8b49d43f624461092cf79f4d0b427d8, type: 3}
+  - {fileID: 21300000, guid: aa17c859b5974879abcaf41479fca489, type: 3}
+  - {fileID: 21300000, guid: 0100943f6a3940cc85f6ef142e6ae88a, type: 3}
+  obstacleTiles:
+  - {fileID: 21300000, guid: 24393b45019245e29dac628ed71ce55f, type: 3}
+  - {fileID: 21300000, guid: cb4419d17287481fb5e9010d91e112ec, type: 3}
+  - {fileID: 21300000, guid: 0461fee42d0c484a9f9f81931563c043, type: 3}
+  - {fileID: 21300000, guid: a9ca048e759442e09d551c9eed27db3c, type: 3}
+  - {fileID: 21300000, guid: 9da32fccb2564179812c8cb821a34085, type: 3}
+  - {fileID: 21300000, guid: f1e219b55c6e477bae88651368b0304a, type: 3}
+  - {fileID: 21300000, guid: 8439ddb83e4f4708bd7a4ddab323f471, type: 3}
+  - {fileID: 21300000, guid: 139d533f06a546ca8ce9c2b7477bdec5, type: 3}
+  - {fileID: 21300000, guid: 7a8eb2ce75f9490684f511220c4419b5, type: 3}
+  - {fileID: 21300000, guid: 3372aff5ce7b41c986b79e57a4fd8357, type: 3}
+  - {fileID: 21300000, guid: 90a0b58b57364e36ba15d415379d03e8, type: 3}
+  - {fileID: 21300000, guid: 49b83a778b9744c2a6533a8b2701a36e, type: 3}
+  edgeTiles:
+  - {fileID: 21300000, guid: 720a9d30fc8340ac8fef6a6874bd887d, type: 3}
+  - {fileID: 21300000, guid: a84fbebcfed647bba3ff16069d093e3a, type: 3}
+  - {fileID: 21300000, guid: d7ec9aa9fac245af9465bae8c10ef586, type: 3}
+  - {fileID: 21300000, guid: cd053567ad874b7593037964090a50bc, type: 3}
+  - {fileID: 21300000, guid: be60e7c762934d25b83919210f8d9253, type: 3}
+  - {fileID: 21300000, guid: 944bb9572eea4607814ca37c9c998d8d, type: 3}
+  - {fileID: 21300000, guid: 500304aff2814027a27d9b0f729a66df, type: 3}
+  - {fileID: 21300000, guid: ac370b7aa2424e92914a672df69ca2bc, type: 3}
+  - {fileID: 21300000, guid: 5cb5acaab79d4ef9b15fcaebcddf4764, type: 3}
+  - {fileID: 21300000, guid: efa78727ac404e6591acb6b3c657c402, type: 3}
+  - {fileID: 21300000, guid: c2b43d3db496496db55423fed611a165, type: 3}
+  - {fileID: 21300000, guid: 5fbf2a950f914c8f907ee0d737b1bb2b, type: 3}
+  edgeSortingOrderBoost: 2
+  spawnTeam1Color: {r: 0.25, g: 0.45, b: 1, a: 0.4}
+  spawnTeam2Color: {r: 1, g: 0.3, b: 0.2, a: 0.4}
