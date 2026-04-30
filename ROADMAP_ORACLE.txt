@@ -20,7 +20,7 @@ Ce qui est DÉJÀ en place (code + données locales)
 - .gitignore Unity présent (Library, Logs, UserSettings exclus).
 
 Ce qu’il RESTE À FAIRE pour un MVP « produit » (par priorité)
-1) RÉSEAU (bloquant vs vision multijoueur) : aucun Photon PUN / Mirror dans Packages/manifest.json. Implémenter NetworkManager, sync des actions (déplacement, sort, fin de tour, passifs), autorité MasterClient, gestion déco. Tout le flux actuel est local / IA placement adversaire.
+1) RÉSEAU (bloquant vs vision multijoueur) : SDK Photon présent sous Assets/Photon (import classique, hors manifest UPM) mais aucune intégration dans Assets/_Game (pas de RPC / sync combat). Implémenter NetworkManager, sync des actions (déplacement, sort, fin de tour, passifs), autorité MasterClient, gestion déco. Flux gameplay actuel : local, placement adversaire automatisé.
 2) Menus & navigation : pas de flux Main Menu → Lobby / matchmaking → chargement scène combat dédié (tout semble partir d’une scène de démo).
 
 3) DA / polish MVP : animations personnage multi-directions, VFX pixel art par sort (SpellAnimator baseline à enrichir), palette Aseprite figée, sons UI + combat (Freesound / mix).
